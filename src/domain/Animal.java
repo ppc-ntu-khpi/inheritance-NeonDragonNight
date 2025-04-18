@@ -15,10 +15,6 @@ public class Animal {
         System.out.println("Animal eating...");
     }
 
-    public void speak() {
-        System.out.println("Animal speaking...");
-    }
-
     @Override
     public String toString() {
         return "My animal:" + "\nName:\t" + name + "\nWeight:\t" + weight+" kg";
